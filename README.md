@@ -3,15 +3,15 @@
 数据来源为kaggle：https://www.kaggle.com/jameslko/gun-violence-data
 主要分析13-18年美国枪支暴力事件的特征，以及使用时间序列预测下一年枪支暴力事件发生数量。
 
-主要用到以下数据包
-**Basemap**是python中一个利用地图的库
-**plotly**是开挂的作图神器，可以供js, python, R, DB等使用
-**Seaborn**是基于matplotlib的python数据可视化库，提供更高层次的API封装，使用起来更加方便快捷。
-**Fbprophet **：facebook开源的时间序列预测框架prophet，目前支持R语言和python语言。托管在github上：https://github.com/facebookincubator/prophet。
+主要用到以下数据包  
+**Basemap**是python中一个利用地图的库  
+**plotly**是开挂的作图神器，可以供js, python, R, DB等使用  
+**Seaborn**是基于matplotlib的python数据可视化库，提供更高层次的API封装，使用起来更加方便快捷。  
+**Fbprophet **：facebook开源的时间序列预测框架prophet，目前支持R语言和python语言。托管在github上:https://github.com/facebookincubator/prophet。
 
-
-#可能会出现的问题及解决方案
-
+  
+#可能会出现的问题及解决方案 
+  
 **1.pip install XXX报错：**
 parse() got an unexpected keyword argument 'transport_encoding'
 解决：conda install pip
@@ -19,8 +19,8 @@ parse() got an unexpected keyword argument 'transport_encoding'
 **2.No matching distribution found for  mpl_toolkits**
 解决：
 pip install --upgrade matplotlib
-
-**下载停用词表出错**
+  
+**下载停用词表出错**  
 Resource 'corpora/stopwords.zip/stopwords/' not found.  Please
   use the NLTK Downloader to obtain the resource:  >>>
   nltk.download()
