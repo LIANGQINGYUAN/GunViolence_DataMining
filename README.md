@@ -10,7 +10,7 @@
 **Fbprophet **：facebook开源的时间序列预测框架prophet，目前支持R语言和python语言。托管在github上:https://github.com/facebookincubator/prophet。
 
   
-#可能会出现的问题及解决方案 
+# 可能会出现的问题及解决方案 
   
 **1.pip install XXX报错：**
 parse() got an unexpected keyword argument 'transport_encoding'
